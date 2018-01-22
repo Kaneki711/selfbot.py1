@@ -15,7 +15,7 @@ from googletrans import Translator
 
 kr = Aan.LINE()
 #kr.login(qr=True)
-kr.login(token='EoiAlGUPtEI2JHVKADva.6n/5nCr1iFrpVM/keiA0cG.frQleZ/i8fgRuTzDnsOJZ9fK2dhiIkrCNjRFOSRSn5I=')#mr.yena
+kr.login(token='EpkF8dLgcBqqIDeotwB5.T2Obu6kd2POuq9/WqXGtnq.DWCyr9MQ9zT91S7BCVOzvURv89Ae0F4w9oMj/5CrdUM=')#aanjutawan
 kr.loginResult()
 
 print "Aan jutawan"
