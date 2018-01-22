@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-import LINETCR
-from LINETCR.lib.curve.ttypes import *
+import Aan
+from Aan.lib.curve.ttypes import *
 from datetime import datetime
 import time, random, sys, ast, re, os, io, json, subprocess, threading, string, codecs, requests, ctypes, urllib, urllib2, urllib3, wikipedia, tempfile
 from bs4 import BeautifulSoup
@@ -13,12 +13,12 @@ from gtts import gTTS
 from googletrans import Translator
 #JANGAN LUPA =>  sudo pip install bs4 => sudo pip install BeautifulSoup => sudo pip install urllib
 
-kr = LINETCR.LINE()
+kr = Aan.LINE()
 #kr.login(qr=True)
 kr.login(token='EoiAlGUPtEI2JHVKADva.6n/5nCr1iFrpVM/keiA0cG.frQleZ/i8fgRuTzDnsOJZ9fK2dhiIkrCNjRFOSRSn5I=')#mr.yena
 kr.loginResult()
 
-print "Mora"
+print "Aan jutawan"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
